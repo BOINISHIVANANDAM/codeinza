@@ -8,10 +8,10 @@
      	        <script lan="javascript">
      	        	function validate()
      	        	{
-     	        		var firstname=document.getElementById("t1").value;
-     	        		var lastname=document.getElementById("t2").value;
-     	        		var gmail=document.getElementById("t3").value;
-     	        		var pass=document.getElementById("t4").value;
+     	        		var firstname=document.f1.t1.value;
+     	        		var lastname=document.f1.t2.value;
+     	        		var gmail=document.f1.t3.value;
+     	        		var pass=document.f1.t4.value;
      	        		
      	     	        if(firstname=="")
      	        		{
@@ -92,10 +92,10 @@
      		<form name="f1" method="POST" action="http://localhost/client.php">
                  <center>   
                      <div class ="input">
-                        User First Name : <input type="text"    id="t1" required><br>
-     	                User Last  Name : <input type="text"    id="t2" required><br>
-     	                Email  Address  : <input type="text"    id="t3" required><br>
-     	                User Password   : <input type="password" id="t4" required><br>
+                        User First Name : <input type="text"    name="t1" required><br>
+     	                User Last  Name : <input type="text"    name="t2" required><br>
+     	                Email  Address  : <input type="text"    name="t3" required><br>
+     	                User Password   : <input type="password" name="t4" required><br>
      	            </div>
      	            </center>            
      	            <br>
