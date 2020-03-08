@@ -1,0 +1,26 @@
+
+*{
+  background-color:#cdeefd; 	        			
+}
+div.input
+{
+border-style:outset;
+border-color:fuchsia;
+border-width: 10px;
+font-size: 16px;
+font-family:fantasy;
+width: 15em;
+padding:6px 4px 4px 6px;
+background-color:#ffdea0;
+}
+input
+{
+border-style:inset;
+border-color:fuchsia;
+border-width: 4px;
+font-size: 12px;
+font-family:fantasy;
+width: 15em;
+padding:4px 3px 4px 3px;
+background-color: yellow;
+}
