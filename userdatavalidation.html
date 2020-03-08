@@ -78,9 +78,12 @@
      	        		if(email.indexOf('@')>8 && email.lastIndexOf('.')<3)
      	        		{
      	        			alert("please enter '@' and '.' at correct position");
+                              document.f1.t3.focus();
+                              exit;
      	        		}
      	        		function valid()
      	        		{
+                           confirm("are you want to reset ?");   
                           document.f1.t1.focus();
                           exit;
      	        		}
