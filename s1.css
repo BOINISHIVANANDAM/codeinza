@@ -1,0 +1,31 @@
+body
+{
+	background-color:orange;
+	backface-visibility:visible;
+	background-position:right;
+}
+ .1
+ {
+   margin:20px 20px 10px 10px;
+   padding: 10px 10px;
+   border-style:double;
+   animation-duration:all;
+ }
+  .helo
+  {
+  	image-rendering:auto;
+  }
+
+body
+{
+	margin:0;
+	padding: 0;
+	display:all;
+	min-height:100vh;
+	background-position: #031321;
+	font-family: consolas; 
+}
+div img
+{
+	display:flex;
+}
